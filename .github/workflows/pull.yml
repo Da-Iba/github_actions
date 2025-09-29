@@ -1,0 +1,11 @@
+name: Pull Request Test 1
+run-name: ${{ github.actor }} is desperately trying to make this work
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 ${{ github.event_name }} event triggered something for the love of everything good in this world."
