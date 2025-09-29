@@ -1,4 +1,2 @@
-# hacc management testing
-testing git management for hacc 2025
-forking, branching, pulling, dfjkdfgjkldjkljkldjklksdfds
-- 9/10/2025
+# testing github actions
+09/28/2025 - trying to triger an event by pushing
