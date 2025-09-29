@@ -8,9 +8,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 ${{ github.event_name }} triggered this at ${{ steps.hello.outputs.time }}"
-
-
+      - run: echo "🎉 ${{ github.event_name }} triggered this at ${{ github.run_attempt }}"
 
 #  id: hello
 #  uses: actions/hello-world-docker-action@v2
